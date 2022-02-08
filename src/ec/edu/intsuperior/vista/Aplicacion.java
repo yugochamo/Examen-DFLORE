@@ -10,5 +10,7 @@ package ec.edu.intsuperior.vista;
  * @author PC
  */
 public class Aplicacion {
-    
-}
+        public static void main(String[] args) {
+        
+    }
+    }

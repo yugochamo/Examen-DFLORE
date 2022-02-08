@@ -5,10 +5,17 @@
  */
 package ec.edu.intsuperior.controlador;
 
+import ec.edu.intsuperior.vista.Administrador;
+import ec.edu.intsuperior.vista.Estudiante;
+import ec.edu.intsuperior.vista.Loggin;
+
 /**
  *
  * @author PC
  */
 public class Controlador {
+    Administrador administrador=new Administrador(this);
+    Estudiante estudiante= new Estudiante(this);
+    Loggin loggin= new Loggin(this);
     
 }
